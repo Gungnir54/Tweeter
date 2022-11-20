@@ -5,8 +5,8 @@ class Connect_Db
 
     function __construct()
     {
-        $this->user = 'gungnir';
-        $this->password = 'alfard54';
+        $this->user = 'user';
+        $this->password = 'password';
 
         try {
             $this->connection = new PDO('mysql:host=localhost;dbname=common-database;charset=utf8', $this->user, $this->password);
